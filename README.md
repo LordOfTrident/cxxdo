@@ -13,6 +13,7 @@
 		<img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/LordOfTrident/cxxdo?color=0088ff"/>
 	</a>
 	<br><br><br>
+	<img width="500px" src="res/img.png"/>
 </p>
 
 ## Table of contents
