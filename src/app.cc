@@ -46,7 +46,7 @@ App::App(const std::string &p_path, std::ostream &p_logStream):
 	std::ifstream file(m_path);
 
 	std::string line;
-	size_t      row = 1;
+	size_t      row = 0;
 	while (std::getline(file, line)) {
 		try {
 			Todo todo = Todo::FromLine(line, row);

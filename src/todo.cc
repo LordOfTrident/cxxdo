@@ -14,7 +14,7 @@ size_t ParseError::Line() const {
 }
 
 std::string ParseError::Format() const {
-	return "Line " + std::to_string(m_line) + ": " + m_msg;
+	return "Line " + std::to_string(m_line + 1) + ": " + m_msg;
 }
 
 Todo::Todo(const std::string &p_desc, bool p_checked, size_t p_line, bool p_hasDash):
